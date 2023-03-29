@@ -6,7 +6,7 @@ import OurServices from './OurServices'
 
 const Main = () => {
     return (
-        <div className='bg-slate-300 h-screen'>
+        <div className=''>
             <Home />
             <AboutUs />
             <OurServices />
