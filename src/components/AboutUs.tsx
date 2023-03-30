@@ -1,7 +1,7 @@
 
 const AboutUs = () => {
     return (
-        <div className="flex flex-row justify-between gap-4 px-14 py-16 bg-[#c2d2d6]">
+        <div className="flex flex-row justify-between space-x-7 px-14 py-16 bg-[#c2d2d6]">
             <div>
                 <img className="h-52 w-96 rounded-md" src={require('../images/analise.jpg')} alt='' />
                 <span className="text-xl font-semibold ">we analise your requirments</span>

@@ -1,10 +1,10 @@
 
 const GetInformation = () => {
     return (
-        <div className='flex px-14 gap-40 py-14 bg-[#c2d2d6]'>
+        <div className='flex px-14 gap-40 py-14 bg-white'>
             <div className='w-1/2 space-y-6'>
                 <p className='text-3xl font-semibold text-blue-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati explicabo laudantium alias a asperiores dicta commodi perspiciatis ea dolore doloremque.</p>
-                <p className='text-xl font-semibold'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ipsam enim maiores in? Reiciendis odio laboriosam ipsa porro accusamus cupiditate facere debitis quasi repudiandae suscipit! Nihil nostrum dignissimos debitis officiis doloribus! Fugit libero sint quasi, repellendus error sunt blanditiis ratione.</p>
+                <img className="h-52 w-96 ml-44 -rotate-12" src={require('../images/freccia.jpg')} alt='' />
             </div>
             <div className='w-1/2'>
                 <form action="" className='px-4 my-2 space-y-6'>
