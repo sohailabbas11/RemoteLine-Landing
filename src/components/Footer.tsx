@@ -3,7 +3,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className='bg-blue-500 py-4 flex flex-col'>
-            <div className='flex flex-row justify-between px-6'>
+            <hr className='w-full md:w-auto mx-10' />
+            <div className='flex flex-row justify-between px-6 my-6'>
                 <pre>Remote Line - via s.pertini,29, 42018 - San Martino In Rio RE  info@remoteline.co  P.IVA-03007100351</pre>
                 <span>Privacy Policy - Cookie Policy</span>
             </div>
