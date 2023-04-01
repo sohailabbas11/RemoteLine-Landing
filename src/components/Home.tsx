@@ -1,7 +1,7 @@
 
 const Home = () => {
     return (
-        <div className='bg-[rgb(209,199,183)] px-14 py-20 flex flex-row space-x-7'>
+        <div className='bg-[rgb(209,199,183)] px-14 py-20 flex space-x-7'>
             <div className="w-1/2 mt-20">
                 <p className="font-medium">
                     <p className="text-xl font-semibolds"> Welcome to our software house, where we bring your ideas to life!</p>
@@ -12,7 +12,7 @@ const Home = () => {
                     If you're looking for a reliable partner to help you achieve your business goals, look no further than our software house. Contact us today to discuss your project and discover how we can help you succeed!
                 </p>
             </div>
-            <div className="w-1/2 mt-20">
+            <div className="w-1/2 mt-20 ">
                 <img className=" rounded-md opacity-75" src={require('../images/marvin.jpg')} alt='' />
             </div>
 
