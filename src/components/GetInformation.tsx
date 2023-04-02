@@ -6,8 +6,8 @@ const GetInformation = () => {
                 <p className='text-3xl font-semibold text-blue-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati explicabo laudantium alias a asperiores dicta commodi perspiciatis ea dolore doloremque.</p>
                 <img className="h-52 w-96 ml-44 -rotate-12" src={require('../images/freccia.jpg')} alt='' />
             </div>
-            <div className='w-1/2'>
-                <form action="" className='px-4 my-2 space-y-6'>
+            <div className='w-1/2 p-4 rounded-xl shadow-xl'>
+                <form action="" className='mx-4 my-2 space-y-6 '>
                     <div>
                         <h1 className="font-bold text-2xl">Ask us About your project</h1>
                         <p className="font-semibold">We will make a prenventivo and contact you in minimum time period</p>

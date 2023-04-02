@@ -13,7 +13,7 @@ const Home = () => {
                 </p>
             </div>
             <div className="w-1/2 mt-20 ">
-                <img className=" rounded-md opacity-75" src={require('../images/marvin.jpg')} alt='' />
+                <img className=" rounded-md" src={require('../images/marvin.jpg')} alt='' />
             </div>
 
         </div>
