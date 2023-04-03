@@ -38,7 +38,7 @@ const GetInformation = () => {
                     </div>
                     <div>
                         <p className="font-semibold">Privacy Policy</p>
-                        <div className="flex flex-row justify-around items-center">
+                        <div className="flex justify-around items-center">
                             <input type="checkbox" className="h-4 w-4" />
                             <p >I have readed and accepted the privacy policy</p>
                             <button className=" bg-slate-400 rounded-md text-sm h-8 w-28 cursor-pointer hover:bg-green-800 ">Send Request</button>

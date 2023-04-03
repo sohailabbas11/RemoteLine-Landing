@@ -1,5 +1,5 @@
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { AiOutlineBars } from 'react-icons/ai'
+
 
 const Header = () => {
     return (
@@ -11,7 +11,7 @@ const Header = () => {
                 <li className=' hover:text-white'>Our Services</li>
                 <li className=' hover:text-white'>Contact Us</li>
             </ul>
-            <FontAwesomeIcon icon={faBars} className='mr-6 h-6 cursor-pointer hover:text-white md:hidden' />
+            <AiOutlineBars className='mr-6 text-3xl cursor-pointer hover:text-white md:hidden' />
         </div>
     )
 }
