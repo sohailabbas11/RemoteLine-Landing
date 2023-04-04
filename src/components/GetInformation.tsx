@@ -3,7 +3,9 @@ const GetInformation = () => {
     return (
         <div className='flex flex-col md:flex-row px-4 md:px-10 gap-40 py-4 md:py-14'>
             <div className='md:w-1/2 space-y-6'>
-                <p className='text-3xl font-semibold text-blue-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati explicabo laudantium alias a asperiores dicta commodi perspiciatis ea dolore doloremque.</p>
+                <p className='text-3xl font-semibold text-blue-600'>Save Your Time And Budget</p>
+                <p className="text-gray-500">
+                    Experience the best global tech talent and enjoy the tech world without getting exhausted through the hiring process. Hire an expert developer, designer and an engineer now.</p>
                 <img className=" h-52 w-96 ml-44 -rotate-12" src={require('../images/freccia.jpg')} alt='' />
             </div>
             <div className='md:w-1/2 p-4 rounded-xl shadow-xl'>
