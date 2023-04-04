@@ -23,7 +23,7 @@ const ContactUs = () => {
                     </p>
                 </div>
                 <div className='flex flex-col shadow-xl h-60 w-96 rounded-xl my-8 py-4 px-4 '>
-                    <span className='text-3xl font-semibold text-center'>Follow us</span>
+                    <span className='text-xl font-semibold text-center'>Follow us</span>
                     <div className='text-4xl flex justify-center gap-6 my-6 cursor-pointer '>
                         <BsInstagram />
                         <BsLinkedin />
