@@ -3,7 +3,7 @@ const Home = () => {
     return (
 
         <div style={{ backgroundImage: `url(${require('../images/bg.jpg')})` }}
-            className='bg-cover h-96 opacity-30 '>
+            className='bg-cover h-96 opacity-30 relative'>
             <div className="flex px-4 md:w-1/2">
                 <p className="text-lg font-semibold py-4 px-4 md:px-10">
                     <span className="text-2xl font-bold text-black">
