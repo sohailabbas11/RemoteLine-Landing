@@ -1,12 +1,21 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Main from './components/Main';
+import AboutUs from './components/AboutUs'
+import ContactUs from './components/ContactUs'
+import GetInformation from './components/GetInformation'
+import Home from './components/Home'
+import Message from './components/Message'
+
 
 function App() {
   return (
     <div className="">
       <Header />
-      <Main />
+      <Home />
+      <AboutUs />
+      <GetInformation />
+      <Message />
+      <ContactUs />
       <Footer />
     </div>
   );
