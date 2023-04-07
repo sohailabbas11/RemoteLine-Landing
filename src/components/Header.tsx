@@ -1,6 +1,5 @@
 import { AiOutlineBars } from 'react-icons/ai'
 
-
 const Header = () => {
     return (
         <div className='flex bg-white justify-between py-4 left-0 right-0'>
@@ -17,3 +16,5 @@ const Header = () => {
 }
 
 export default Header
+
+

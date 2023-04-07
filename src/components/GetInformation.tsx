@@ -2,14 +2,38 @@
 const GetInformation = () => {
     return (
         <div>
-            <p className="text-lg font-semibold px-4 md:px-10 pt-4 md:pt-14">
-                <span className="flex justify-center text-4xl font-bold text-black">
-                    Our Software Services are exceptional, reliable and scalable. <br /> <br />
+            <p className="text-lg font-semibold px-4 md:px-28 text-center pt-4 md:pt-14">
+                <span className="flex justify-center text-center text-4xl md:px-40 font-bold text-black">
+                    Our Software Services are exceptional,<br /> reliable and scalable. <br /> <br />
                 </span>
                 We’ve provided exceptional software teams to some of the world’s best technology businesses.
                 Over the years, we’ve designed and built various complex software platforms for different industries and partnered with some of the most ambitious founders & operators on their startup journey.
             </p>
-            <div className='flex flex-col md:flex-row px-4 md:px-10 gap-40 py-4 md:py-14'>
+            {/* <div className="px-4 md:px-10 py-8 space-y-6">
+                <div className="flex flex-col md:flex-row justify-between space-y-6">
+                    <div className="flex h-64 w-96 bg-slate-400 rounded-lg shadow-xl">
+
+                    </div>
+                    <div className="flex h-64 w-96 bg-slate-400 rounded-lg shadow-xl">
+
+                    </div>
+                    <div className="flex h-64 w-96 bg-slate-400 rounded-lg shadow-xl">
+
+                    </div>
+                </div>
+                <div className="flex flex-col md:flex-row justify-between space-y-6">
+                    <div className="flex h-64 w-96 bg-slate-400 rounded-lg shadow-xl">
+
+                    </div>
+                    <div className="flex h-64 w-96 bg-slate-400 rounded-lg shadow-xl">
+
+                    </div>
+                    <div className="flex h-64 w-96 bg-slate-400 rounded-lg shadow-xl">
+
+                    </div>
+                </div>
+            </div> */}
+            <div className='flex flex-col justify-center items-center md:flex-row px-4 md:px-10 gap-40 py-4 md:py-14'>
                 <div className='md:w-1/2 space-y-6'>
                     <p className='text-3xl font-semibold text-blue-600'>Save Your Time And Budget</p>
                     <p className="text-gray-500">
