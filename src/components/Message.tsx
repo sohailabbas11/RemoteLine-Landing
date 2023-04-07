@@ -28,9 +28,7 @@ const Message = () => {
                     </div>
                 </div>
             </div>
-            <div className="relative right-56 -z-50 h-80 w-80 rounded-full border-8 border-sky-500 mr-10 my-20">
-
-            </div>
+            <div className="relative right-56 -z-50 h-80 w-80 rounded-full border-8 border-sky-500 mr-10 my-20"></div>
         </div>
     )
 }
