@@ -2,7 +2,8 @@
 const AboutUs = () => {
     return (
         <div>
-            <p className="flex text-4xl font-bold justify-center py-10 px-4 md:px-10">Custom Software Development to Transform and Grow Your Business</p>
+            <p className="flex text-4xl font-bold justify-center px-4 pt-14 md:px-10">Custom Software Development to Transform and Grow Your Business</p>
+            <p className='flex justify-center text-center px-4 md:px-40 py-12 text-2xl font-semibold'>With custom application development expertise in UX Design, Front-end and Back-end implementations our developers and designers can help you execute quickly and ship products faster. We specialize in designing, building, and maintaining distributed multi-tenant, secure, and robust custom software solutions.</p>
             <div className="flex flex-col justify-between md:flex-row md:space-x-7 px-4 md:px-10">
                 <div>
                     <img className=" rounded-md" src={require('../images/analise.jpg')} alt='' />
