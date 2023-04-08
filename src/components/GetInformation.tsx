@@ -9,31 +9,31 @@ const GetInformation = () => {
                 We’ve provided exceptional software teams to some of the world’s best technology businesses.
                 Over the years, we’ve designed and built various complex software platforms for different industries and partnered with some of the most ambitious founders & operators on their startup journey.
             </p>
-            <div className="px-4 md:px-10 py-8 space-y-6">
-                <div className="flex flex-col md:flex-row justify-between space-y-6">
-                    <div className="flex flex-col justify-center items-center px-6 py-4 h-64 w-96 rounded-lg">
+            <div className="px-4 md:px-10 py-2">
+                <div className="flex flex-col md:flex-row justify-center">
+                    <div className="flex flex-col justify-center items-center px-6 h-40 w-96 rounded-lg">
                         <span className="text-xl font-semibold"> Web Development</span> <br />
                         We carry more than just good coding skills. Our experience makes us stand out from other web development.
                     </div>
-                    <div className="flex flex-col justify-center items-center px-6 py-4 h-64 w-96 rounded-lg">
+                    <div className="flex flex-col justify-center items-center px-6 h-40 w-96 rounded-lg">
                         <span className="text-xl font-semibold">Mobile Development</span> <br />
                         Create complex enterprise software, ensure reliable software integration, modernise your legacy system.
                     </div>
-                    <div className="flex flex-col justify-center items-center px-6 py-4 h-64 w-96 rounded-lg">
+                    <div className="flex flex-col justify-center items-center px-6 h-40 w-96 rounded-lg">
                         <span className="text-xl font-semibold">UI/UX Design</span> <br />
                         Build the product you need on time with an experienced team that uses a clear and effective design process.
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row justify-between space-y-6">
-                    <div className="flex flex-col justify-center items-center px-6 py-4 h-64 w-96 rounded-lg">
+                <div className="flex flex-col md:flex-row justify-center ">
+                    <div className="flex flex-col justify-center items-center px-6 h-40 w-96 rounded-lg">
                         <span className="text-xl font-semibold">QA & Testing</span> <br />
                         Turn to our experts to perform comprehensive, multi-stage testing and auditing of your software.
                     </div>
-                    <div className="flex flex-col justify-center items-center px-6 py-4 h-64 w-96 rounded-lg">
+                    <div className="flex flex-col justify-center items-center px-6 h-40 w-96 rounded-lg">
                         <span className="text-xl font-semibold">IT Counsultancy</span> <br />
                         Trust our top minds to eliminate workflow pain points, implement new tech, and consolidate app portfolios.
                     </div>
-                    <div className="flex flex-col justify-center items-center px-6 py-4 h-64 w-96 rounded-lg">
+                    <div className="flex flex-col justify-center items-center px-6 h-40 w-96 rounded-lg">
                         <span className="text-xl font-semibold">Digital Media Marketing</span> <br />
                         Over the past decade, our customers succeeded by leveraging Intellectsoft’s process of building, motivating.
                     </div>
