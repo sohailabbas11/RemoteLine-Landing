@@ -5,7 +5,6 @@ import ContactUs from './components/ContactUs'
 import GetInformation from './components/GetInformation'
 import Home from './components/Home'
 import Message from './components/Message'
-import Testimonials from './components/testimonials';
 
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <Home />
       <AboutUs />
       <GetInformation />
-      <Testimonials />
       <Message />
       <ContactUs />
       <Footer />
