@@ -7,7 +7,7 @@ const Message = () => {
                     <div className="flex bg-white justify-center py-6 px-6">
                         <img className='h-17 w-17 rounded-full' src={require('../images/person2.jpeg')} alt="" />
                     </div>
-                    <div className="bg-slate-100 px-8 py-2 flex items-center">
+                    <div className="bg-cyan-100 px-8 py-2 flex items-center">
                         <p className='text-lg font-Alkatra'>
                             At our software house, we are committed to providing exceptional service and support to our clients. We understand that every project is unique, and we work closely with you to ensure that your vision is realized. <br /> <br />
                             <span className="text-xs font-semibold flex justify-center md:justify-end">Muhammad Sarmad</span>
@@ -19,7 +19,7 @@ const Message = () => {
                     <div className="flex bg-white justify-center py-6 px-6">
                         <img className='h-17 w-17 rounded-full' src={require('../images/person2.jpeg')} alt="" />
                     </div>
-                    <div className="bg-slate-100 px-8 py-2 flex items-center">
+                    <div className="bg-cyan-100 px-8 py-2 flex items-center">
                         <p className='text-lg font-Alkatra'>
                             If you're looking for a reliable partner to help you achieve your business goals, look no further than our software house. Contact us today to discuss your project and discover how we can help you succeed! <br /> <br />
                             <span className="text-xs font-semibold flex justify-center md:justify-end">Sohail Abbas</span>

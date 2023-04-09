@@ -3,7 +3,7 @@ const GetInformation = () => {
         <div className="bg-gradient-to-b from-cyan-50 to-cyan-300">
             <div className='flex flex-col justify-center items-center md:flex-row px-4 md:px-10 gap-40 py-4 md:py-14'>
                 <div className='md:w-1/2 space-y-6'>
-                    <p className='text-3xl font-semibold text-blue-600'>Save Your Time And Budget</p>
+                    <p className='text-3xl font-semibold text-slate-700'>Save Your Time And Budget</p>
                     <p className="text-gray-500">
                         Experience the best global tech talent and enjoy the tech world without getting exhausted through the hiring process. Hire an expert developer, designer and an engineer now.</p>
                 </div>

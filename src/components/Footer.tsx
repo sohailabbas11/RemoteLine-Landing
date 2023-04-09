@@ -34,32 +34,48 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className=' text-white py-4 flex flex-col'>
-                <hr className='w-full md:w-auto mx-4 md:mx-10' />
-                <div className='flex flex-col md:flex-row justify-evenly py-11'>
+            <div className='py-4 flex bg-gradient-to-tr from-slate-900 via-slate-700 to-slate-900 text-slate-300  flex-col'>
+                <hr className='w-full md:w-auto my-10 mx-4 md:mx-10' />
+                <div className='flex justify-evenly font-serif md:flex-row py-11'>
+                    <div className='flex flex-col '>
+                        <span className='text-2xl py-6'>COMPANY</span>
+                        <span className='cursor-pointer hover:text-green-800'>Home</span>
+                        <span className='cursor-pointer hover:text-green-800'>About us</span>
+                        <span className='cursor-pointer hover:text-green-800'>Contact us</span>
+                        <span className='cursor-pointer hover:text-green-800'>Careers</span>
+                        <span className='cursor-pointer hover:text-green-800'>Our services</span>
+                    </div>
                     <div className='flex flex-col'>
-                        <span className='text-2xl font-semibold'>Remote Line</span>
-                        <span className='text-xl font-semibold text-gray-400'>Software Company</span>
-                        <span className=''>Best Software solutions <br /> to take your business <br /> to the next level</span>
+                        <span className='text-2xl py-6'>SERVICES</span>
+                        <span className='cursor-pointer hover:text-green-800'>Web Development</span>
+                        <span className='cursor-pointer hover:text-green-800'>Custom Mobile App Development</span>
+                        <span className='cursor-pointer hover:text-green-800'>Hire BPO Teams</span>
+                        <span className='cursor-pointer hover:text-green-800'>Digital Media Marketing</span>
+                        <span className='cursor-pointer hover:text-green-800'>Team Outsourcing</span>
+                        <span className='cursor-pointer hover:text-green-800'>UI UX Design</span>
+                        <span className='cursor-pointer hover:text-green-800'>E-Commerce Solutions</span>
+                        <span className='cursor-pointer hover:text-green-800'>Corporate Branding</span>
+                        <span className='cursor-pointer hover:text-green-800'>Hire Software Developers</span>
+                        <span className='cursor-pointer hover:text-green-800'>Mobile Game Development</span>
                     </div>
-                    <div className='flex flex-col justify-center text-lg font-semibold'>
-                        <span>About us</span>
-                        <span>Home</span>
-                        <span>Contact us</span>
-                        <span>Work with us</span>
-                        <span>Our services</span>
+                    <div className='flex flex-col'>
+                        <span className='text-2xl py-6'>SOFTWARE & IT <br /> PACKAGES</span>
+                        <span className='cursor-pointer hover:text-green-800'>Mobile App Development</span>
+                        <span className='cursor-pointer hover:text-green-800'>Web Design And Development</span>
+                        <span className='cursor-pointer hover:text-green-800'>E-commerce Solutions</span>
+                        <span className='cursor-pointer hover:text-green-800'>Game Development</span>
+                        <span className='cursor-pointer hover:text-green-800'>Graphic Design</span>
+                        <span className='cursor-pointer hover:text-green-800'>Team OutSourcing</span>
                     </div>
-                    <div className='flex flex-col justify-center text-lg font-semibold'>
-                        <span>About us</span>
-                        <span>Home</span>
-                        <span>Contact us</span>
-                        <span>Work with us</span>
-                        <span>Our services</span>
+                    <div className='flex flex-col'>
+                        <span className='text-2xl py-6'>GET AN ESTIMATED <br /> PROJECT COST</span>
+                        <p>Get in touch with us and turn <br /> your project into reality by recieving <br /> an accurate cost estimate.</p>
+                        <button className=" bg-teal-700 rounded-md text-sm h-8 w-40 cursor-pointer hover:bg-green-800 my-4">CONTACT US</button>
                     </div>
                 </div>
                 <hr className='w-full md:w-auto mx-4 md:mx-10' />
                 <div className='flex justify-center py-2'>
-                    <span>&copy; Copyright 2023 Remote Line</span>
+                    <span>&copy; 2020 - 2023 Remote Line. All Rights Reserved</span>
                 </div>
             </div>
         </div>
