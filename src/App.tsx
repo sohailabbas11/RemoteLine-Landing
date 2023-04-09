@@ -1,7 +1,6 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 import AboutUs from './components/AboutUs'
-import ContactUs from './components/ContactUs'
 import GetInformation from './components/GetInformation'
 import Home from './components/Home'
 import Message from './components/Message'
@@ -13,9 +12,8 @@ function App() {
       <Header />
       <Home />
       <AboutUs />
-      <GetInformation />
       <Message />
-      <ContactUs />
+      <GetInformation />
       <Footer />
     </div>
   );

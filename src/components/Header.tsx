@@ -2,7 +2,7 @@ import { AiOutlineBars } from 'react-icons/ai'
 
 const Header = () => {
     return (
-        <div className='flex bg-slate-200 justify-between py-4 left-0 right-0'>
+        <div className='flex bg-cyan-300 justify-between py-4 left-0 right-0'>
             <h1 className='font-bold text-2xl ml-6'>Remote Line</h1>
             <ul className='font-semibold mr-6 hidden md:flex gap-6 cursor-pointer '>
                 <li className=' hover:text-green-600'>Home</li>
