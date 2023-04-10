@@ -1,13 +1,13 @@
 const GetInformation = () => {
     return (
-        <div className="bg-gradient-to-b from-cyan-50 to-cyan-300">
-            <div className='flex flex-col justify-center items-center md:flex-row px-4 md:px-10 gap-40 py-4 md:py-14'>
-                <div className='md:w-1/2 space-y-6'>
-                    <p className='text-3xl font-semibold text-slate-700'>Save Your Time And Budget</p>
-                    <p className="text-gray-500">
-                        Experience the best global tech talent and enjoy the tech world without getting exhausted through the hiring process. Hire an expert developer, designer and an engineer now.</p>
+        <div className="bg-gradient-to-b from-slate-50 to-slate-200 h-full w-full flex">
+            <div className='flex flex-col justify-center items-center bg-gradient-to-tr from-slate-500 via-slate-300 to-slate-500 md:flex-row px-6 py-6 mx-8 md:mx-20 gap-4 my-6 md:my-20 rounded-2xl'>
+                <div className='md:w-1/2'>
+                    <p className='text-3xl py-6 font-semibold'>Save Your Time And Budget</p>
+                    <p className=" font-semibold text-lg">Experience the best global tech talent and enjoy the tech world without getting exhausted through the hiring process. Hire an expert developer, designer and an engineer now.</p>
+                    <p className=" pt-10 font-semibold text-lg">As a product development company, we help business ideate and strategize. iterate, and launch their mobile and web apps while keeping cost, timelines, and objectives in mind.</p>
                 </div>
-                <div className='md:w-1/2 p-4 rounded-xl shadow-xl'>
+                <div className='md:w-1/2'>
                     <form action="" className='mx-4 my-2 space-y-6 '>
                         <div>
                             <h1 className="font-bold text-2xl">Ask us About your project</h1>
