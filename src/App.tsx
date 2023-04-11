@@ -4,6 +4,7 @@ import AboutUs from './components/AboutUs'
 import GetInformation from './components/GetInformation'
 import Home from './components/Home'
 import Message from './components/Message'
+import OurServices from './components/OurServices';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <AboutUs />
       <Message />
+      <OurServices />
       <GetInformation />
       <Footer />
     </div>
