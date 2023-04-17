@@ -1,7 +1,7 @@
 
 const Home = () => {
     return (
-        <div className="flex flex-col  px-4 md:px-10">
+        <div className="flex flex-col bg-gradient-to-tr from-sky-200 via-sky-50 to-sky-200 px-4 md:px-10">
             <div className="flex justify-center items-center">
                 <p className="flex justify-center items-center flex-col">
                     <span className="text-4xl font-bold pt-8"> We Serve Business And Tech Leaders Building Custom Software</span> <br />

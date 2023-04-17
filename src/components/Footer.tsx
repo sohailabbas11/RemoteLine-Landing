@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             <div className='py-4 flex bg-gradient-to-tr from-slate-900 via-slate-700 to-slate-900 text-slate-300  flex-col'>
                 <hr className='w-full md:w-auto my-10 mx-4 md:mx-10' />
-                <div className='flex justify-evenly font-serif md:flex-row py-11'>
+                <div className='flex flex-col justify-evenly font-serif md:flex-row py-11'>
                     <div className='flex flex-col '>
                         <span className='text-2xl py-6'>COMPANY</span>
                         <span className='cursor-pointer hover:text-green-800'>Home</span>
