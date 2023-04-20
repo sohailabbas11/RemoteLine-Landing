@@ -1,5 +1,6 @@
+
 import Footer from './components/Footer';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import AboutUs from './components/AboutUs'
 import GetInformation from './components/GetInformation'
 import Home from './components/Home'
@@ -10,7 +11,7 @@ import OurServices from './components/OurServices';
 function App() {
   return (
     <div className="">
-      <Header />
+      <Navbar />
       <Home />
       <AboutUs />
       <Message />
