@@ -3,8 +3,8 @@ import { BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <div className='bg-gradient-to-b from-slate-200 to-slate-300'>
-            <div className='flex flex-col justify-center items-center pt-14'>
+        <div className=''>
+            <div className='flex flex-col justify-center items-center'>
                 <span className='text-lg text-gray-500 font-semibold'>Our Locations</span>
                 <p className='text-3xl font-semibold'>Becoming Globally <span className='text-blue-500'>Accessible</span> </p>
                 <div className='flex flex-col md:flex-row justify-between mx-14'>

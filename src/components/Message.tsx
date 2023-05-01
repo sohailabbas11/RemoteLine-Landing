@@ -1,8 +1,8 @@
 
 const Message = () => {
     return (
-        <div className='flex items-center'>
-            <div className="flex flex-col px-4 py-10 md:pl-20 space-y-10 md:w-3/4">
+        <div className='flex justify-center bg-slate-700 mx-4 sm:mx-14 my-10 rounded-2xl'>
+            <div className=" relative z-50 flex flex-col px-4 py-16 md:pl-20 space-y-10 md:w-3/4">
                 <div className='flex flex-col md:flex-row shadow-xl'>
                     <div className="flex bg-white justify-center py-6 px-6">
                         <img className='h-17 w-17 rounded-full' src={require('../images/person2.jpeg')} alt="" />
@@ -28,8 +28,8 @@ const Message = () => {
                     </div>
                 </div>
             </div>
-            <div className="relative right-40 -z-50 h-60 w-60 rounded-full border-4 border-sky-500 my-20 hidden md:block"></div>
-            <div className="h-[500px] w-20 rounded-l-3xl bg-sky-300 hidden md:block"></div>
+            <div className="relative right-40  h-60 w-60 rounded-full border-4 border-sky-500 my-32 hidden md:block"></div>
+            {/* <div className="h-[500px] w-20 rounded-l-3xl bg-sky-300 hidden md:block"></div> */}
         </div>
     )
 }

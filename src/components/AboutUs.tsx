@@ -1,10 +1,12 @@
 
 const AboutUs = () => {
     return (
-        <div className="bg-gradient-to-b from-slate-100 via-slate-300 to-slate-100 ">
-            <p className="flex text-4xl font-bold justify-center px-4 pt-14 md:px-10">Custom Software Development to Transform and Grow Your Business</p>
-            <p className='flex justify-center text-center px-4 md:px-40 py-12 text-2xl font-semibold'>With custom application development expertise in UX Design, Front-end and Back-end implementations our developers and designers can help you execute quickly and ship products faster. We specialize in designing, building, and maintaining distributed multi-tenant, secure, and robust custom software solutions.</p>
-            <div className="flex flex-col justify-between md:flex-row md:space-x-7 px-4 md:px-10">
+        <div className="">
+            <div className="flex flex-col bg-sky-200 pb-48 absolute">
+                <p className="flex text-4xl font-bold justify-center px-4 pt-14 md:px-10">Custom Software Development to Transform and Grow Your Business</p>
+                <p className='flex justify-center text-center px-4 md:px-40 py-12 text-2xl font-semibold'>With custom application development expertise in UX Design, Front-end and Back-end implementations our developers and designers can help you execute quickly and ship products faster. We specialize in designing, building, and maintaining distributed multi-tenant, secure, and robust custom software solutions.</p>
+            </div>
+            <div className="relative top-72 z-30  flex flex-col justify-between md:flex-row md:space-x-7 px-4 md:px-10">
                 <div className="border-4 bg-teal-100 border-blue-300 rounded-xl p-6">
                     <img className=" rounded-md" src={require('../images/analise.jpg')} alt='' />
                     <span className=" flex justify-center py-4 text-xl font-semibold">we analise your requirments</span>
@@ -21,7 +23,7 @@ const AboutUs = () => {
                     <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque perspiciatis nemo quae reprehenderit voluptates reiciendis similique, quas nam animi quod numquam facere nesciunt sed ex voluptate voluptas, ipsum, praesentium at obcaecati eligendi dolores incidunt! Necessitatibus amet asperiores delectus ad inventore quasi molestiae saepe at alias labore repellendus aliquam, iste excepturi.</p>
                 </div>
             </div>
-            <div className="">
+            <div className="pt-80">
                 <p className="text-lg font-semibold px-4 md:px-28 text-center pt-4">
                     <span className="flex justify-center text-center text-4xl md:px-40 font-bold text-black">
                         Our Software Services are exceptional,<br /> reliable and scalable. <br /> <br />
