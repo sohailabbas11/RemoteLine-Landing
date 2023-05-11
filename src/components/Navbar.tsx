@@ -12,7 +12,6 @@ const Navbar = () => {
                 <li className=' hover:text-green-600'>Our Services</li>
                 <li className=' hover:text-green-600'>Pricing</li>
                 <li className=' hover:text-green-600'>Contact Us</li>
-                <li className=' hover:text-green-600'>Hosting Services</li>
             </ul>
             <AiOutlineBars
                 className='mr-6 text-3xl cursor-pointer hover:text-green-600 sm:hidden'
@@ -27,7 +26,6 @@ const Navbar = () => {
                         <li className=' hover:text-green-600'>Pricing</li>
                         <li className=' hover:text-green-600'>Contact Us</li>
                         <li className=' hover:text-green-600'>Careers</li>
-                        <li className=' hover:text-green-600'>Hosting Services</li>
                     </ul>
                 </div>
             }
