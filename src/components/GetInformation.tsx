@@ -10,7 +10,7 @@ const GetInformation = () => {
                     <p className=" font-semibold text-lg">Experience the best global tech talent and enjoy the tech world without getting exhausted through the hiring process. Hire an expert developer, designer and an engineer now.</p>
                     <p className=" pt-10 font-semibold text-lg">As a product development company, we help business ideate and strategize. iterate, and launch their mobile and web apps while keeping cost, timelines, and objectives in mind.</p>
                 </div>
-                <div className='md:w-1/2'>
+                <div className='md:w-1/2 '>
                     <form action="" className='mx-4 my-2 space-y-6 '>
                         <div>
                             <h1 className="font-bold text-2xl">Ask us About your project</h1>

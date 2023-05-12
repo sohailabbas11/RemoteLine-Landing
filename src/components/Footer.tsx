@@ -38,9 +38,9 @@ const Footer = () => {
                         44000 Islamabad Pakistan<br />
                     </p>
                     <div className='text-4xl flex justify-center gap-6 my-6 cursor-pointer '>
-                        <BsInstagram />
-                        <BsLinkedin />
-                        <BsTwitter />
+                        <BsInstagram className=' hover:text-green-800' />
+                        <BsLinkedin className=' hover:text-green-800' />
+                        <BsTwitter className=' hover:text-green-800' />
                     </div>
                 </div>
                 <div className='flex flex-col'>
