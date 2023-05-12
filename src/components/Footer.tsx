@@ -27,7 +27,7 @@ const Footer = () => {
                     <span className='cursor-pointer hover:text-green-800'>Hire Software Developers</span>
                 </div>
                 <div className='flex flex-col space-y-4'>
-                    <h1 className='text-2xl '>Address</h1>
+                    <h1 className='text-2xl '>ADDRESS</h1>
                     <p> <span className='text-lg font-semibold'>Head Office: </span><br />
                         via sandro pertini n.29 <br />
                         42018 San Martino In Rio <br />
