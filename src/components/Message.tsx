@@ -29,7 +29,6 @@ const Message = () => {
                 </div>
             </div>
             <div className="relative right-40  h-60 w-60 rounded-full border-4 border-sky-500 my-32 hidden md:block"></div>
-            {/* <div className="h-[500px] w-20 rounded-l-3xl bg-sky-300 hidden md:block"></div> */}
         </div>
     )
 }

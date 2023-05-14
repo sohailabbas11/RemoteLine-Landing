@@ -24,16 +24,15 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="pt-80 flex">
-                <div className="w-1/2">
+                <div className="w-1/3 flex justify-center items-center">
                     <img className="" src={require('../images/home2.webp')} alt='' />
-                    <img className="" src={require('../images/solution.jpeg')} alt='' />
                 </div>
-                <div className="w-1/2">
-                    <p className="text-lg font-semibold px-4 md:px-28 py-4 pt-4">
-                        <span className=" text-4xl md:px-40 font-bold italic text-black">
+                <div className="w-2/3">
+                    <p className="flex flex-col text-lg font-semibold px-4 md:px-14 py-4 space-y-6">
+                        <span className="flex justify-center text-center text-4xl font-bold italic text-black">
                             Our Software Services are exceptional, reliable and scalable.
                         </span>
-                        <span className="text-2xl">
+                        <span className="text-2xl flex justify-center text-center">
                             We’ve provided exceptional software teams to some of the world’s best technology businesses.
                             Over the years, we’ve designed and built various complex software platforms for different industries and partnered with some of the most ambitious founders & operators on their startup journey.
                         </span>
