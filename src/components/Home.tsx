@@ -16,7 +16,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="">
-                <img className="pt-10" src={require('../images/head.png')} alt='' />
+                <img className="" src={require('../images/head.png')} alt='' />
             </div>
         </div>
     )
