@@ -4,7 +4,7 @@ const OurServices = () => {
     return (
         <div>
             <div>
-                <span className='flex text-4xl font-semibold italic justify-center px-4 md:px-10'>Explore Excellence</span>
+                <span className='flex text-4xl font-semibold italic justify-center px-4 md:px-10 text-sky-700'>Explore Excellence</span>
                 <p className='flex justify-center text-center px-4 md:px-40 py-8 text-2xl font-light'>We offer optimum solutions that simplify the development process of applications to meet your expectations.</p>
             </div>
             <div className="flex flex-col md:flex-row md:space-x-4 px-4 md:px-10">
