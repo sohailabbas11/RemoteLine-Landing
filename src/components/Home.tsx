@@ -2,7 +2,7 @@
 const Home = () => {
     return (
         <div className="flex flex-col ">
-            <div className="flex before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-tr from-slate-900 via-slate-700 to-slate-900 relative my-10 p-5">
+            <div className="flex flex-col sm:flex-row before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-tr from-slate-900 via-slate-700 to-slate-900 relative my-10 p-5">
                 <div className="relative w-1/3 ">
                     <img className="w-72 h-72 " src={require('../images/about.png')} alt='' />
                 </div>
