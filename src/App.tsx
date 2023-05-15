@@ -5,7 +5,7 @@ import GetInformation from './components/GetInformation'
 import Home from './components/Home'
 import Message from './components/Message'
 import OurServices from './components/OurServices';
-import Business from './components/Business';
+// import Business from './components/Business';
 import Customer from './components/Customer';
 
 
@@ -18,7 +18,7 @@ function App() {
       <Message />
       <OurServices />
       <GetInformation />
-      <Business />
+      {/* <Business /> */}
       <Customer />
       <Footer />
     </div>

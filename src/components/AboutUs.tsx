@@ -23,7 +23,7 @@ const AboutUs = () => {
                     <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque perspiciatis nemo quae reprehenderit voluptates reiciendis similique, quas nam animi quod numquam facere nesciunt sed ex voluptate voluptas, ipsum, praesentium at obcaecati eligendi dolores incidunt! Necessitatibus amet asperiores delectus ad inventore quasi molestiae saepe at alias labore repellendus aliquam, iste excepturi.</p>
                 </div>
             </div>
-            <div className="pt-80 flex bg-cover bg-no-repeat bg-center h-screen" style={{ backgroundImage: `url(${require('../images/bg2.png')})` }}>
+            <div className="pt-80 flex">
                 <div className="w-1/3 flex justify-center items-center">
                     <img className="" src={require('../images/home2.webp')} alt='' />
                 </div>
@@ -39,7 +39,7 @@ const AboutUs = () => {
                     </p>
                 </div>
             </div>
-            <div className="px-4 md:px-10 py-4 bg-cover bg-no-repeat bg-center h-screen" style={{ backgroundImage: `url(${require('../images/bg3.png')})` }}>
+            <div className="px-4 md:px-10 py-4 bg-contain bg-right" style={{ backgroundImage: `url(${require('../images/bg3.png')})` }}>
                 <div className="flex flex-col md:flex-row justify-center">
                     <div className="flex flex-col justify-center items-center px-6 h-60 w-[500px] border-2 border-grey-200 rounded-lg">
                         <div className="flex justify-center items-center space-x-4">
