@@ -9,10 +9,10 @@ const Home = () => {
                 <div className="relative w-2/3 text-slate-300">
                     <p className="flex justify-center items-center flex-col">
                         <span className="flex text-center text-4xl font-semibold italic pt-8 text-green-500"> We Serve Business And Tech Leaders Building Custom Software</span> <br />
-                        <p className="flex justify-center text-center px-4 md:px-40 text-2xl">
+                        <p className="flex justify-center text-center px-4 sm:px-20 text-2xl">
                             With custom application development expertise in UX Design, Front-end and Back-end implementations our developers and designers can help you execute quickly and ship products faster. We specialize in designing, building, and maintaining distributed multi-tenant, secure, and robust custom software solutions.
                         </p>
-                        <button className="bg-teal-700 rounded-md text-sm h-8 w-40 cursor-pointer hover:bg-green-800 my-4">Request a Meeting</button>
+                        <button className="bg-teal-700 rounded-md text-lg h-10 w-48 cursor-pointer hover:bg-green-800 my-6">Request a Meeting</button>
                     </p>
                 </div>
             </div>

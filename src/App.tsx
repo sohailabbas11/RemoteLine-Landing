@@ -17,9 +17,9 @@ function App() {
       <AboutUs />
       <Message />
       <OurServices />
+      <Customer />
       <GetInformation />
       {/* <Business /> */}
-      <Customer />
       <Footer />
     </div>
   );
