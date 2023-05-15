@@ -12,6 +12,7 @@ const Home = () => {
                         <p className="flex justify-center text-center px-4 md:px-40 text-2xl">
                             With custom application development expertise in UX Design, Front-end and Back-end implementations our developers and designers can help you execute quickly and ship products faster. We specialize in designing, building, and maintaining distributed multi-tenant, secure, and robust custom software solutions.
                         </p>
+                        <button className="bg-teal-700 rounded-md text-sm h-8 w-40 cursor-pointer hover:bg-green-800 my-4">Request a Meeting</button>
                     </p>
                 </div>
             </div>
