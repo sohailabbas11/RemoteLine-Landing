@@ -23,12 +23,12 @@ const AboutUs = () => {
                     <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque perspiciatis nemo quae reprehenderit voluptates reiciendis similique, quas nam animi quod numquam facere nesciunt sed ex voluptate voluptas, ipsum, praesentium at obcaecati eligendi dolores incidunt! Necessitatibus amet asperiores delectus ad inventore quasi molestiae saepe at alias labore repellendus aliquam, iste excepturi.</p>
                 </div>
             </div>
-            <div className="pt-80 flex">
+            <div className="pt-80 flex flex-col sm:flex-row justify-center items-center">
                 <div className="w-1/3 flex justify-center items-center">
                     <img className="" src={require('../images/home2.webp')} alt='' />
                 </div>
                 <div className="w-2/3">
-                    <p className="flex flex-col text-lg font-semibold px-4 md:px-14 py-4 space-y-6">
+                    <p className="flex flex-col text-lg font-semibold px-4 sm:px-14 py-4 space-y-6">
                         <span className="flex justify-center text-center text-4xl font-bold italic text-black">
                             Our Software Services are exceptional, reliable and scalable.
                         </span>
