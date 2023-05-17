@@ -4,7 +4,7 @@ const AboutUs = () => {
         <div className="">
             <div className="flex flex-col bg-gradient-to-tr from-slate-900 via-slate-700 to-slate-900 text-teal-500 pb-48 absolute">
                 <p className="flex text-4xl font-semibold italic justify-center px-4 pt-14 md:px-10">Custom Software Development to Transform and Grow Your Business</p>
-                <p className='flex justify-center text-center px-4 md:px-40 py-12 text-2xl font-normal'>With custom application development expertise in UX Design, Front-end and Back-end implementations our developers and designers can help you execute quickly and ship products faster. We specialize in designing, building, and maintaining distributed multi-tenant, secure, and robust custom software solutions.</p>
+                <p className='flex justify-center text-center px-4 md:px-40 py-12 text-lg font-normal'>With custom application development expertise in UX Design, Front-end and Back-end implementations our developers and designers can help you execute quickly and ship products faster. We specialize in designing, building, and maintaining distributed multi-tenant, secure, and robust custom software solutions.</p>
             </div>
             <div className="relative top-72 z-30  flex flex-col justify-between md:flex-row md:space-x-7 px-4 md:px-10">
                 <div className=" bg-teal-100  shadow-lg rounded-xl p-6">
@@ -23,7 +23,7 @@ const AboutUs = () => {
                     <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque perspiciatis nemo quae reprehenderit voluptates reiciendis similique, quas nam animi quod numquam facere nesciunt sed ex voluptate voluptas, ipsum, praesentium at obcaecati eligendi dolores incidunt! Necessitatibus amet asperiores delectus ad inventore quasi molestiae saepe at alias labore repellendus aliquam, iste excepturi.</p>
                 </div>
             </div>
-            <div className="pt-80 flex flex-col sm:flex-row justify-center items-center">
+            <div className="pt-80 flex flex-col sm:flex-row justify-center items-center my-20">
                 <div className="w-1/3 flex justify-center items-center">
                     <img className="" src={require('../images/home2.webp')} alt='' />
                 </div>
@@ -32,7 +32,7 @@ const AboutUs = () => {
                         <span className="flex justify-center text-center text-4xl font-bold italic text-black">
                             Our Software Services are exceptional, reliable and scalable.
                         </span>
-                        <span className="text-2xl flex justify-center text-center">
+                        <span className="text-lg flex justify-center text-center">
                             We’ve provided exceptional software teams to some of the world’s best technology businesses.
                             Over the years, we’ve designed and built various complex software platforms for different industries and partnered with some of the most ambitious founders & operators on their startup journey.
                         </span>
