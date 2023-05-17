@@ -16,7 +16,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <div className="py-8 px-4">
+            <div className="p-20">
                 <img className="" src={require('../images/head.png')} alt='' />
             </div>
         </div>
