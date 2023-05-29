@@ -10,7 +10,7 @@ const GetInformation = () => {
                 <form action="" className='mx-4 my-2 space-y-6 '>
                     <div>
                         <h1 className="font-semibold italic text-2xl ">Ask us About your project</h1>
-                        <p className="font-semibold">We will make a prenventivo and contact you in minimum time period</p>
+                        <p className="font-semibold">We will make an estimate and contact you in minimum time period</p>
                     </div>
                     <div className="flex flex-row space-x-3">
                         <div className='w-1/2'>
