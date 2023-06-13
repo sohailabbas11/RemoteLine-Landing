@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Customer = () => {
+const Customers = () => {
     return (
         <div>
             <h1 className='flex justify-center text-5xl font-Alkatra text-green-600 pt-12'>Happy Clients</h1>
@@ -32,4 +32,4 @@ const Customer = () => {
     )
 }
 
-export default Customer
+export default Customers
